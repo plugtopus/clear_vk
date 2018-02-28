@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  width: 800px;
+  color: #707070;
+  background: rgb(255, 255, 255);
+  line-height: 1.3em;
+  -ms-user-select: none; 
+   -moz-user-select: none; 
+   -webkit-user-select: none; 
+   user-select: none;
+   cursor: default;
+}
+
+label {
+   cursor: pointer;
+}
+.alignSpan {
+  display: inline-block;
+  text-overflow: clip;
+}
+
+body > div {
+  float: left;
+  margin: 20px 0px 20px 0px;
+  padding: 0px 14px 0px 14px;
+  border-right: 1px solid rgba(180, 180, 180, 0.1);
+}
+
+.specialFun {
+  border-right: 0;
+  padding: 0px 0px 0px 12px;
+}
+
+.mainText {
+  margin: 0px 0px 7px 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.ch_menu, .left_icon {
+  vertical-align: middle;
+}
+
+/*Название пунктов*/
+.menu {
+  width: 140px;
+}
+
+.privPublPage {
+   /*width: 218px;*/
+   width: 198px;
+}
+
+.groups {
+   width: 161px;
+}
+
+.left_icon {
+  width: 27px;
+  height: 25px;
+  display: inline-block;
+}
+
+/*In the bottom*/
+.bottom {
+   margin: 0 12px;
+  display: block;
+  clear: left;
+  border-top: 1px solid rgba(180, 180, 180, 0.2);
+}
+
+.wrapperBottom {
+   margin: 20px 0 20px 0;
+}
+
+.wrapperButton {
+   float: left;
+   padding: 0 20px 0 0;
+}
+
+.textLogin {
+   /*width: 390px;*/
+   font-weight: 500;
+   color: rgba(50, 50, 50, 0.5);
+}
+
+.login {
+   margin: 4px 0 0 0;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: #65c178;
+   color: white;
+   padding: 6px 30px;
+}
+
+#l_pr {
+  background: url(/img/icons/menu_icon.png?6) no-repeat 3px -444px;
+  background-position: 3px 3px;
+}
+#l_nwsf, #l_g_wall, #l_sp_news, #l_wall {
+  background: url(/img/icons/menu_icon.png?6) no-repeat 3px -444px;
+  background-position: 3px -919px;
+}
+#l_msg, #l_sp_comment {
+  background: url(/img/icons/menu_icon.png?6) no-repeat 3px -444px;
+  background-position: 3px -24px;
+}
+#l_fr, #l_sp_fastChat, #l_friend {
+  background: url(/img/icons/menu_icon.png?6) no-repeat 3px -444px;
+  background-position: 3px -80px;
+}
+#l_gr, #l_g_follow, #l_sp_recomGr, #l_Commonfriend_g {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -108px;
+}
+#l_ph, #l_g_pict, #l_save, #l_addFhoto, #l_fhotoBook_g, #l_sp_fotoPeople {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -136px;
+}
+#l_aud, #l_g_audio, #l_audio {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -163px;
+}
+#l_vid, #l_g_video, #l_sp_videoCatalog, #l_video, #l_sp_vdOutCom {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -192px;
+}
+#l_ap, #l_g_app, #l_sp_clearGames, #l_ads {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -220px;
+}
+#l_mk, #l_g_goods, #l_notAv_g {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -947px;
+}
+#l_fav {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -304px;
+}
+
+#l_doc, #l_g_doc {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -276px;
+}
+
+#l_g_donAdmin {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -752px;
+}
+
+#l_blog, #l_g_dis, #l_sp_firstHot, #l_intPage {
+  background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+  background-position: 3px -808px;
+}
+
+#l_g_attach {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -584px;
+}
+
+#l_g_add, #l_g_link, #l_g_av, #l_sp_advertising, #l_sp_mv_info, #l_av, #l_whatNew, #l_sp_fhOutCom {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -248px;
+}
+#l_g_cont {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -388px;
+}
+
+#l_g_quiz {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -417px;
+}
+
+#l_g_metting, #l_sp_notific, #l_apm {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -332px;
+}
+
+#l_sp_notific {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -51px;
+}
+
+#l_sp_likes {
+   background: url(/img/icons/menu_icon.png) no-repeat 7px -444px;
+   background-position: 7px -833px;
+   transform: rotate(180deg);
+}
+
+#l_sp_likes {
+   background: url(/img/icons/menu_icon.png) no-repeat 7px -444px;
+   background-position: 7px -833px;
+   transform: rotate(180deg);
+}
+
+#l_sp_audioFrList {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -499px;
+}
+
+#l_sp_possFriend {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -472px;
+}
+
+#l_frOn {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -891px;
+}
+
+#l_blName {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -696px;
+}
+#l_info {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -528px;
+}
+
+#l_blSub {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -556px;
+}
+
+#l_gift_g {
+   background: url(/img/icons/menu_icon.png) no-repeat 3px -444px;
+   background-position: 3px -444px;
+}
+
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding: 1px 0 0 20px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+   content: "";
+  position: absolute;
+  left: 1px; top: 2px;
+  width: 12px; height: 12px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: "\2713";
+  position: absolute;
+  top: 4px; left: 5px;
+  font-size: 15.5px;
+  line-height: 0.8;
+  color: #5fba7d;
+  transition: all .2s;
+}
+
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after, [type="checkbox"]:checked ~ label span {
+  font-weight: 500;
+  color: #55857b;
+}
+
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}

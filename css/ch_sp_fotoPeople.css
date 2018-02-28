@@ -1,0 +1,26 @@
+.reply_image, #public .cell_img, #group .cell_img, #public .people_cell_ava, #group .people_cell_ava, .ow_ava_small,
+.nim-dialog--photo, .im-mess-stack--photo, .im-page--nav-photo {
+	display: none !important;
+}
+
+.reply_content {
+	margin-left: 22px !important;
+}
+
+.nim-dialog--content {
+	margin-left: 5px !important;
+}
+
+.im-mess--text {
+	margin-left: 36px !important;
+}
+
+.im-mess-stack--pname {
+	left: 40px !important;
+}
+
+#public .cell_img, #group .cell_img , #group .thumb, #public .thumb {
+	width: 0px !important;
+}
+
+

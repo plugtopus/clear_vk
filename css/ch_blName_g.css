@@ -1,0 +1,11 @@
+#profile .page_top {
+	display: none;
+	border: 0;
+	padding: 15px 20px;
+}
+#profile_short {
+	padding: 15px 20px;
+}
+#page_info_wrap {
+	padding: 0;
+}

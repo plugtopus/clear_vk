@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="/js/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/css/popup.css" id="style1">
+		<script src="/js/popup.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="menu"> <div class="mainText"><b>Меню</b></div>
+			<div class="wrapperMenu">
+				<div> 
+					<input type="checkbox" id="ch_pr" class="ch_menu"/>
+					<label for="ch_pr">
+						<li class="left_icon" id="l_pr"> </li> 
+						<span class="alignSpan">Моя страница</span> 
+					</label>
+				</div>
+				
+				<div> 
+					<input type="checkbox" id="ch_nwsf" class="ch_menu"/>
+					<label for="ch_nwsf">
+						<li class="left_icon" id="l_nwsf"></li> 
+						<span class="alignSpan">Новости</span> 
+					</div>
+					
+					<div> 
+						<input type="checkbox" id="ch_msg" class="ch_menu"/>
+						<label for="ch_msg">
+							<li class="left_icon" id="l_msg"> </li> 
+							<span class="alignSpan">Сообщения</span> 
+						</div>
+						
+						<div>
+							<input type="checkbox" id="ch_fr" class="ch_menu"/>
+							<label for="ch_fr">
+								<li class="left_icon" id="l_fr"> </li> 
+								<span class="alignSpan">Друзья</span> 
+							</div>
+							
+							<div> 
+								<input type="checkbox" id="ch_gr" class="ch_menu"/>
+								<label for="ch_gr">
+									<li class="left_icon" id="l_gr">  </li> 
+									<span class="alignSpan">Группы</span> 
+								</div>
+								
+								<div> 
+									<input type="checkbox" id="ch_ph" class="ch_menu"/>
+									<label for="ch_ph">
+										<li class="left_icon" id="l_ph">  </li> 
+										<span class="alignSpan">Фотографии</span> 
+									</div>
+									
+									<div> 
+										<input type="checkbox" id="ch_aud" class="ch_menu"/>
+										<label for="ch_aud">
+											<li class="left_icon" id="l_aud"> </li> 
+											<span class="alignSpan">Аудизаписи</span> 
+										</div>
+										
+										<div> 
+											<input type="checkbox" id="ch_vid" class="ch_menu"/>
+											<label for="ch_vid">
+												<li class="left_icon" id="l_vid">  </li> 
+												<span class="alignSpan">Видеозаписи</span> 
+											</div>
+											
+											<div> 
+												<input type="checkbox" id="ch_ap" class="ch_menu"/>
+												<label for="ch_ap">
+													<li class="left_icon" id="l_ap"> </li> 
+													<span class="alignSpan">Игры</span> 
+												</div>
+												
+												<div> 
+													<input type="checkbox" id="ch_mk" class="ch_menu"/>
+													<label for="ch_mk">
+														<li class="left_icon" id="l_mk"></li> 
+														<span class="alignSpan">Товары</span> 
+													</div>
+													
+													<div> 
+														<input type="checkbox" id="ch_fav" class="ch_menu"/>
+														<label for="ch_fav">
+															<li class="left_icon" id="l_fav"> </li> 
+															<span class="alignSpan">Закладки</span> 
+														</div>
+														
+														<div> 
+															<input type="checkbox" id="ch_doc"/>
+															<label for="ch_doc">
+																<li class="left_icon" id="l_doc"> </li> 
+																<span class="alignSpan"> Документы </span> 
+															</div>
+															<div> 
+																<input type="checkbox" id="ch_ads"/>
+																<label for="ch_ads">
+																	<li class="left_icon" id="l_ads"> </li> 
+																	<span class="alignSpan"> Реклама </span> 
+																</div>
+																<div> 
+																	<input type="checkbox" id="ch_apm"/>
+																	<label for="ch_apm">
+																		<li class="left_icon" id="l_apm"> </li> 
+																		<span class="alignSpan"> Управление </span> 
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_blog"/>
+																		<label for="ch_blog">
+																			<li class="left_icon" id="l_blog"> </li> 
+																			<span class="alignSpan"> Блог и т.д.</span> 
+																		</div>
+																	</div>
+																</div>
+																<div class="privPublPage"> <div class="mainText"> <b>Личная и чужие страницы</b> </div>
+																	<div> 
+																		<input type="checkbox" id="ch_av_g" class="ch_menu"/>
+																		<label for="ch_av_g">
+																			<li class="left_icon" id="l_av"> </li> 
+																			<span class="alignSpan"> Аватар </span> 
+																		</label>
+																	</div>
+																	<div>
+																		<input type="checkbox" id="ch_Commonfriend_g" class="ch_menu"/>
+																		<label for="ch_Commonfriend_g">
+																			<li class="left_icon" id="l_Commonfriend_g"> </li> 
+																			<span class="alignSpan"> Общие друзья </span> 
+																		</label>
+																	</div>
+																	<div>
+																		<input type="checkbox" id="ch_friend_g" class="ch_menu"/>
+																		<label for="ch_friend_g">
+																			<li class="left_icon" id="l_friend"> </li> 
+																			<span class="alignSpan"> Друзья </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_frOn_g" class="ch_menu"/>
+																		<label for="ch_frOn_g">
+																			<li class="left_icon" id="l_frOn"> </li> 
+																			<span class="alignSpan"> Друзья онлайн </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_gift_g" class="ch_menu"/>
+																		<label for="ch_gift_g">
+																			<li class="left_icon" id="l_gift_g"> </li> 
+																			<span class="alignSpan"> Подарки </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_intPage_g" class="ch_menu"/>
+																		<label for="ch_intPage_g">
+																			<li class="left_icon" id="l_intPage"> </li> 
+																			<span class="alignSpan"> Интересные страницы </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_fhotoBook_g" class="ch_menu"/>
+																		<label for="ch_fhotoBook_g">
+																			<li class="left_icon" id="l_fhotoBook_g"> </li> 
+																			<span class="alignSpan"> Фотоальбомы </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_video_g" class="ch_menu"/>
+																		<label for="ch_video_g">
+																			<li class="left_icon" id="l_video"> </li> 
+																			<span class="alignSpan"> Видеозаписи </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_audio_g" class="ch_menu"/>
+																		<label for="ch_audio_g">
+																			<li class="left_icon" id="l_audio"> </li> 
+																			<span class="alignSpan"> Аудиозаписи </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_blName_g" class="ch_menu"/>
+																		<label for="ch_blName_g">
+																			<li class="left_icon" id="l_blName"> </li> 
+																			<span class="alignSpan"> Блок с именем </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_info_g" class="ch_menu"/>
+																		<label for="ch_info_g">
+																			<li class="left_icon" id="l_info"> </li> 
+																			<span class="alignSpan"> Основн. информация </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_blSub_g" class="ch_menu"/>
+																		<label for="ch_blSub_g">
+																			<li class="left_icon" id="l_blSub"> </li> 
+																			<span class="alignSpan"> Блок с подписчиками </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_addFhoto_g" class="ch_menu"/>
+																		<label for="ch_addFhoto_g">
+																			<li class="left_icon" id="l_addFhoto"> </li> 
+																			<span class="alignSpan">Добав. фотографии</span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_whatNew_g" class="ch_menu"/>
+																		<label for="ch_whatNew_g">
+																			<li class="left_icon" id="l_whatNew"> </li> 
+																			<span class="alignSpan"> Что нового? </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_wall_g" class="ch_menu"/>
+																		<label for="ch_wall_g">
+																			<li class="left_icon" id="l_wall"> </li> 
+																			<span class="alignSpan"> Стена </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_notAv_g" class="ch_menu"/>
+																		<label for="ch_notAv_g">
+																			<li class="left_icon" id="l_notAv_g"> </li> 
+																			<span class="alignSpan"> Друзья без аватарок </span> 
+																		</label>
+																	</div>
+																</div>
+																<div class="groups"> <div class="mainText"> <b>Группы</b> </div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_attach" class="ch_menu"/>
+																		<label for="ch_g_attach">
+																			<li class="left_icon" id="l_g_attach"> </li> 
+																			<span class="alignSpan"> Закреп. запись </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_donAdmin" class="ch_menu"/>
+																		<label for="ch_g_donAdmin">
+																			<li class="left_icon" id="l_g_donAdmin"> </li> 
+																			<span class="alignSpan"> Донат. Админу </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_goods" class="ch_menu"/>
+																		<label for="ch_g_goods">
+																			<li class="left_icon" id="l_g_goods"> </li> 
+																			<span class="alignSpan"> Товары </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_quiz" class="ch_menu"/>
+																		<label for="ch_g_quiz">
+																			<li class="left_icon" id="l_g_quiz"> </li> 
+																			<span class="alignSpan"> Опросы </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_dis" class="ch_menu"/>
+																		<label for="ch_g_dis">
+																			<li class="left_icon" id="l_g_dis"> </li> 
+																			<span class="alignSpan"> Обсуждения </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_add" class="ch_menu"/>
+																		<label for="ch_g_add">
+																			<li class="left_icon" id="l_g_add"> </li> 
+																			<span class="alignSpan"> Добавить запись </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_wall" class="ch_menu"/>
+																		<label for="ch_g_wall">
+																			<li class="left_icon" id="l_g_wall"> </li> 
+																			<span class="alignSpan"> Стена </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_av" class="ch_menu"/>
+																		<label for="ch_g_av">
+																			<li class="left_icon" id="l_g_av"> </li> 
+																			<span class="alignSpan"> Аватар </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_follow" class="ch_menu"/>
+																		<label for="ch_g_follow">
+																			<li class="left_icon" id="l_g_follow"> </li> 
+																			<span class="alignSpan"> Подписчики </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_pict" class="ch_menu"/>
+																		<label for="ch_g_pict">
+																			<li class="left_icon" id="l_g_pict"> </li> 
+																			<span class="alignSpan"> Фотографии </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_video" class="ch_menu"/>
+																		<label for="ch_g_video">
+																			<li class="left_icon" id="l_g_video"> </li> 
+																			<span class="alignSpan"> Видеозаписи </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_audio" class="ch_menu"/>
+																		<label for="ch_g_audio">
+																			<li class="left_icon" id="l_g_audio"> </li> 
+																			<span class="alignSpan"> Аудиозаписи </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_link" class="ch_menu"/>
+																		<label for="ch_g_link">
+																			<li class="left_icon" id="l_g_link"> </li> 
+																			<span class="alignSpan"> Ссылки </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_cont" class="ch_menu"/>
+																		<label for="ch_g_cont">
+																			<li class="left_icon" id="l_g_cont"> </li> 
+																			<span class="alignSpan"> Контакты </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_app" class="ch_menu"/>
+																		<label for="ch_g_app">
+																			<li class="left_icon" id="l_g_app"> </li> 
+																			<span class="alignSpan"> Приложения </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_doc" class="ch_menu"/>
+																		<label for="ch_g_doc">
+																			<li class="left_icon" id="l_g_doc"> </li> 
+																			<span class="alignSpan"> Документы </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_g_metting" class="ch_menu"/>
+																		<label for="ch_g_metting">
+																			<li class="left_icon" id="l_g_metting"> </li> 
+																			<span class="alignSpan"> Мероприятия </span> 
+																		</label>
+																	</div>
+																</div>
+																<div class="specialFun"> <div class="mainText"><b>Специальные функции </b></div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_likes" class="ch_menu"/>
+																		<label for="ch_sp_likes">
+																			<li class="left_icon" id="l_sp_likes"> </li> 
+																			<span class="alignSpan"> Лайки </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_comment" class="ch_menu"/>
+																		<label for="ch_sp_comment">
+																			<li class="left_icon" id="l_sp_comment"> </li> 
+																			<span class="alignSpan"> Комменты (не все) </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_fhOutCom" class="ch_menu"/>
+																		<label for="ch_sp_fhOutCom">
+																			<li class="left_icon" id="l_sp_fhOutCom"> </li> 
+																			<span class="alignSpan"> Фото без комментов </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_vdOutCom" class="ch_menu"/>
+																		<label for="ch_sp_vdOutCom">
+																			<li class="left_icon" id="l_sp_vdOutCom"> </li> 
+																			<span class="alignSpan"> Видео без комментов </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_possFriend" class="ch_menu"/>
+																		<label for="ch_sp_possFriend">
+																			<li class="left_icon" id="l_sp_possFriend"> </li> 
+																			<span class="alignSpan"> Возможные друзья </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_audioFrList" class="ch_menu"/>
+																		<label for="ch_sp_audioFrList">
+																			<li class="left_icon" id="l_sp_audioFrList"> </li> 
+																			<span class="alignSpan"> Друзья в аудио </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_fastChat" class="ch_menu"/>
+																		<label for="ch_sp_fastChat">
+																			<li class="left_icon" id="l_sp_fastChat"> </li> 
+																			<span class="alignSpan"> Онлайн чат </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_news" class="ch_menu"/>
+																		<label for="ch_sp_news">
+																			<li class="left_icon" id="l_sp_news"> </li> 
+																			<span class="alignSpan"> Новостная лента </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_recomGr" class="ch_menu"/>
+																		<label for="ch_sp_recomGr">
+																			<li class="left_icon" id="l_sp_recomGr"> </li> 
+																			<span class="alignSpan"> Рекоменд. сообщ. </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_notific" class="ch_menu"/>
+																		<label for="ch_sp_notific">
+																			<li class="left_icon" id="l_sp_notific"> </li> 
+																			<span class="alignSpan"> Оповещения </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_firstHot" class="ch_menu"/>
+																		<label for="ch_sp_firstHot">
+																			<li class="left_icon" id="l_sp_firstHot"> </li> 
+																			<span class="alignSpan"> Сначала интересные </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_videoCatalog" class="ch_menu"/>
+																		<label for="ch_sp_videoCatalog">
+																			<li class="left_icon" id="l_sp_videoCatalog"> </li> 
+																			<span class="alignSpan"> Видеокаталог </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_mv_info" class="ch_menu"/>
+																		<label for="ch_sp_mv_info">
+																			<li class="left_icon" id="l_sp_mv_info"> </li> 
+																			<span class="alignSpan"> Другие видео </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_fotoPeople" class="ch_menu"/>
+																		<label for="ch_sp_fotoPeople">
+																			<li class="left_icon" id="l_sp_fotoPeople"> </li> 
+																			<span class="alignSpan"> Маленькие аватарки </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_clearGames" class="ch_menu"/>
+																		<label for="ch_sp_clearGames">
+																			<li class="left_icon" id="l_sp_clearGames"> </li> 
+																			<span class="alignSpan"> Очистка игр </span> 
+																		</label>
+																	</div>
+																	<div> 
+																		<input type="checkbox" id="ch_sp_advertising" class="ch_menu"/>
+																		<label for="ch_sp_advertising">
+																			<li class="left_icon" id="l_sp_advertising"> </li> 
+																			<span class="alignSpan"> Реклама слева </span> 
+																		</label>
+																	</div>
+																</div>
+																
+																<span class="bottom">
+																	<div class="wrapperBottom">
+																		<table border="0" cellpadding="5" cellspacing="0" style="background-color:161618; border-top:1px dotted #898989; border-right:1px dotted #898989; border-bottom:1px dotted #898989; border-left:1px dotted #898989;" width="100%">
+																			<tbody>
+																				<tr>
+																					<td><b><font style="font-size: 12px; font-family: Verdana; color: 898989;">Каждый выбранный вами пункт будет скрывает определенный блок на сайте vk.com</font></b>
+																					<br>Данные блоки будут скрыты только у вас, все остальные люди даже ваши друзья будут видеть вашу страницу как обычно. <br> При любой возникшей проблеме, просто перезагрузите страницу VK. </div> 
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</span>
+																
+															</body>
+														</html>
+														
+														
+																										

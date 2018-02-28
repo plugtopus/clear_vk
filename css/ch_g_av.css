@@ -1,0 +1,3 @@
+#group #page_avatar, #group .crisp_image, #public #page_avatar, #public .crisp_image {
+	display: none !important;
+}

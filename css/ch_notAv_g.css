@@ -1,0 +1,11 @@
+.friends_photo_wrap, #profile .people_cell_ava, .copy_post_image, #profile .post_image,
+#friends_possible_block .right_list_photo {
+	display: none !important;
+}
+
+.copy_post_header_info, #profile .post_header_info {
+	margin-left: 0 !important;
+}
+#profile .people_cell_ava {
+	height: 0px !important;
+}

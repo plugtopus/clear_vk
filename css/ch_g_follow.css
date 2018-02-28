@@ -1,0 +1,3 @@
+#public_followers, #public .group_friends, #group_followers, #group .group_friends {
+	display: none !important;
+}

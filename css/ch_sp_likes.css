@@ -1,0 +1,7 @@
+.post_full_like_wrap, #pv_like, .like_wrap, #mv_like_wrap {
+	display: none !important;
+}
+
+.pv_comments {
+	border-top: 0;
+}

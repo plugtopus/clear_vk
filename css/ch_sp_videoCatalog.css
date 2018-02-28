@@ -1,0 +1,4 @@
+.videocat_featured, .videocat_autoplay_video_wrap, .video_title, .videocat_row_trends_b,
+#videocat_other_blocks {
+	display: none !important;
+}
